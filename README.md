@@ -223,18 +223,6 @@ The application is ready for local deployment using Streamlit (see [Usage](#usag
 2. Connect to [Streamlit Cloud](https://streamlit.io/cloud)
 3. Deploy directly from your repository
 
-#### Heroku
-1. Create a `Procfile`:
-```
-web: streamlit run app/app.py --server.port=$PORT
-```
-
-2. Deploy:
-```bash
-heroku create
-git push heroku main
-```
-
 #### Docker
 1. Create a `Dockerfile`:
 ```dockerfile
@@ -309,13 +297,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📧 Contact
-
-**Your Name**
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- GitHub: [@yourusername](https://github.com/yourusername)
 
 ## 🙏 Acknowledgments
 
