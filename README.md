@@ -10,49 +10,6 @@ A predictive maintenance solution that uses Machine Learning to forecast equipme
 
 ---
 
-## 📸 Project Previews
-
-### 🖥️ Interactive Prediction App
-*> Replace this line with a screenshot of your Streamlit app running (e.g., assets/app_screenshot.png) <*
-*Real-time failure probability estimation based on user inputs.*
-
-### 📊 Business Intelligence Dashboard
-*> Replace this line with a screenshot of your Power BI Report (e.g., assets/powerbi_dashboard.png) <*
-*Comprehensive downtime analysis and financial impact report.*
-
----
-
-## 🏗️ System Architecture
-
-The following diagram illustrates the end-to-end data pipeline, from raw sensor data to the deployed user interface.
-
-```mermaid
-graph LR
-    A[📄 Raw Sensor Data] -->|Cleaning & Scaling| B(🧹 Preprocessing)
-    B --> C{🤖 Model Training}
-    C -->|Random Forest| D[💾 Serialized Model .pkl]
-    D --> E[🚀 Streamlit App]
-    
-    subgraph User Interaction
-    E -->|Input: Temp, Speed, Torque| F[⚡ Real-time Prediction]
-    end
-    
-    subgraph Business Intelligence
-    A --> G[📈 Power BI Dashboard]
-    end
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style E fill:#bbf,stroke:#333,stroke-width:2px
-    style G fill:#ff9,stroke:#333,stroke-width:2px
-
-### Key Highlights
-
-- **98.1% Accuracy** on test data
-- Interactive web application built with Streamlit
-- Real-time predictions with probability estimates
-- Comprehensive EDA and visualization dashboards
-- Production-ready model artifacts
-
 ## ✨ Features
 
 - **Predictive Analytics**: Forecast machine failures based on 5 key sensor parameters
