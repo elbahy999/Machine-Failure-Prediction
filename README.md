@@ -4,10 +4,21 @@ This project implements a **Random Forest Classification** model to predict mach
 
 # 🛠️ AI-Powered Machine Failure Predictor
 
-![Project Banner](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge) ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-App-ff4b4b?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-A predictive maintenance solution that uses Machine Learning to forecast equipment failures before they happen. This project combines a **Random Forest Classification model**, an interactive **Streamlit web application**, and a **Power BI dashboard** for business insights.
+---
 
+## ⚡ Quick Start
+**Predict machine failure in seconds:**
+1. `git clone https://github.com/your-username/machine-failure-predictor.git`
+2. `pip install -r requirements.txt`
+3. `streamlit run app.py`
+
+---
 ---
 
 ## ✨ Features
