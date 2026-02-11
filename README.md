@@ -1,7 +1,3 @@
-## 🎯 Overview
-
-This project implements a **Random Forest Classification** model to predict machine failures based on sensor readings in real-time. The system helps manufacturing facilities prevent unexpected downtime by identifying potential failures before they occur, enabling proactive maintenance strategies.
-
 # 🛠️ AI-Powered Machine Failure Predictor
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
@@ -9,6 +5,11 @@ This project implements a **Random Forest Classification** model to predict mach
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+
+## 🎯 Overview
+
+This project implements a **Random Forest Classification** model to predict machine failures based on sensor readings in real-time. The system helps manufacturing facilities prevent unexpected downtime by identifying potential failures before they occur, enabling proactive maintenance strategies.
 
 ---
 
