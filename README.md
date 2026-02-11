@@ -2,6 +2,49 @@
 
 This project implements a **Random Forest Classification** model to predict machine failures based on sensor readings in real-time. The system helps manufacturing facilities prevent unexpected downtime by identifying potential failures before they occur, enabling proactive maintenance strategies.
 
+# 🛠️ AI-Powered Machine Failure Predictor
+
+![Project Banner](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge) ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-App-ff4b4b?style=for-the-badge)
+
+A predictive maintenance solution that uses Machine Learning to forecast equipment failures before they happen. This project combines a **Random Forest Classification model**, an interactive **Streamlit web application**, and a **Power BI dashboard** for business insights.
+
+---
+
+## 📸 Project Previews
+
+### 🖥️ Interactive Prediction App
+*> Replace this line with a screenshot of your Streamlit app running (e.g., assets/app_screenshot.png) <*
+*Real-time failure probability estimation based on user inputs.*
+
+### 📊 Business Intelligence Dashboard
+*> Replace this line with a screenshot of your Power BI Report (e.g., assets/powerbi_dashboard.png) <*
+*Comprehensive downtime analysis and financial impact report.*
+
+---
+
+## 🏗️ System Architecture
+
+The following diagram illustrates the end-to-end data pipeline, from raw sensor data to the deployed user interface.
+
+```mermaid
+graph LR
+    A[📄 Raw Sensor Data] -->|Cleaning & Scaling| B(🧹 Preprocessing)
+    B --> C{🤖 Model Training}
+    C -->|Random Forest| D[💾 Serialized Model .pkl]
+    D --> E[🚀 Streamlit App]
+    
+    subgraph User Interaction
+    E -->|Input: Temp, Speed, Torque| F[⚡ Real-time Prediction]
+    end
+    
+    subgraph Business Intelligence
+    A --> G[📈 Power BI Dashboard]
+    end
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style G fill:#ff9,stroke:#333,stroke-width:2px
+
 ### Key Highlights
 
 - **98.1% Accuracy** on test data
@@ -309,3 +352,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ⭐ If you found this project helpful, please consider giving it a star!
 
 **Made with ❤️ for Predictive Maintenance**
+   
