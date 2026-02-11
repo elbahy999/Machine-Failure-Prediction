@@ -42,12 +42,12 @@ The project uses the **AI4I 2020 Predictive Maintenance Dataset** from the UCI M
 
 ### Random Forest Classifier Results
 
-| Metric | Train | Test |
-|--------|-------|------|
-| **Accuracy** | 100% | 98.1% |
-| **Precision** | 100% | 98.0% |
-| **Recall** | 100% | 98.1% |
-| **F1-Score** | 100% | 98.0% |
+| Metric | Score |
+| --- | --- |
+| **Accuracy** | 98.1% |
+| **Precision** | 98.0% |
+| **Recall** | 98.1% |
+| **F1-Score** | 98.1% |
 
 ### Model Comparison
 
@@ -65,30 +65,30 @@ The Random Forest model was selected for deployment due to its superior performa
 machine-failure-prediction/
 │
 ├── app/
-│   └── app.py                          # Streamlit web application
+│   └── app.py                          
 │
 ├── data/
 │   ├── raw/
-│   │   └── ai4i2020.csv               # Original dataset
+│   │   └── ai4i2020.csv               
 │   └── processed/
-│       └── cleaned_ai3i2020.csv       # Cleaned dataset
+│       └── cleaned_ai3i2020.csv       
 │
 ├── models/
-│   ├── random_forest_model.pkl        # Trained Random Forest model
-│   └── scaler.pkl                     # MinMaxScaler for feature scaling
+│   ├── random_forest_model.pkl       
+│   └── scaler.pkl                     
 │
 ├── notebooks/
-│   └── code.ipynb                     # Complete EDA, preprocessing & model training
+│   └── code.ipynb                    
 │
 ├── visualizations/
-│   ├── Machine_Downtime.pbix          # Power BI dashboard
-│   └── screenshots/                   # Dashboard screenshots
+│   ├── Machine_Downtime.pbix       
+│   └── screenshots/                  
 │
 ├── presentation/
 │   └── Machine_Failure_Prediction_Presentation.pptx
 │
 ├── assets/
-│   └── demo.png                       # Application screenshots
+│   └── screenshots/
 │
 ├── requirements.txt                   # Python dependencies
 ├── .gitignore                        # Git ignore file
