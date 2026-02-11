@@ -6,6 +6,18 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
+![Machine Failure Prediction Hero](assets/hero_banner.png)
+*> If you don't have a hero image, you can use the System Architecture diagram here instead <*
+
+---
+
+## ⚡ Quick Start
+**Predict machine failure in seconds:**
+1. `git clone https://github.com/your-username/machine-failure-predictor.git`
+2. `pip install -r requirements.txt`
+3. `streamlit run app.py`
+
+---
 
 ## 🎯 Overview
 
