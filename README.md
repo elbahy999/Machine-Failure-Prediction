@@ -32,6 +32,28 @@ This project implements a **Random Forest Classification** model to predict mach
 3. `streamlit run app.py`
 
 ---
+
+# 🔄 Data Pipeline
+
+The following diagram illustrates the end-to-end flow from raw data to prediction:
+
+```mermaid
+flowchart LR
+    A[📄 Raw Sensor Data] -->|Cleaning & Scaling| B(🧹 Preprocessing)
+    B --> C{🤖 Model Training}
+    C -->|Random Forest| D[💾 Serialized Model .pkl]
+    D --> E[🚀 Streamlit App]
+    
+    subgraph User Interaction
+    E -->|Input: Temp, Speed, Torque| F[⚡ Real-time Prediction]
+    end
+    
+    style A fill:#f96,stroke:#333,stroke-width:2px
+    style E fill:#69f,stroke:#333,stroke-width:2px
+    style F fill:#9f6,stroke:#333,stroke-width:2px
+
+```
+
 ---
 
 ## ✨ Features
