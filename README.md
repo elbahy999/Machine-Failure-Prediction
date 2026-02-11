@@ -100,7 +100,7 @@ machine-failure-prediction/
 
 * Bassant Yasser
 * Tasnim Adel
-* Ziad Ahmed
+* Ziad El-Bahy
 * Ahmed Mohamed
 
 ## 🚀 Installation
