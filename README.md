@@ -96,6 +96,13 @@ machine-failure-prediction/
 └── LICENSE                           # MIT License
 ```
 
+## 👥 Team
+
+* Bassant Yasser
+* Tasnim Adel
+* Ziad Ahmed
+* Ahmed Mohamed
+
 ## 🚀 Installation
 
 ### Prerequisites
