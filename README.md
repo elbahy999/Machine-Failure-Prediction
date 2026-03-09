@@ -150,7 +150,7 @@ machine-failure-prediction/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/machine-failure-prediction.git
+git clone https://github.com/elbahy999/machine-failure-prediction.git
 cd machine-failure-prediction
 ```
 
