@@ -16,7 +16,7 @@ This project implements a **Random Forest Classification** model to predict mach
 
 ## ⚡ Quick Start
 **Predict machine failure in seconds:**
-1. `git clone https://github.com/your-username/machine-failure-predictor.git`
+1. `git clone https://github.com/elbahy999/machine-failure-predictor.git`
 2. `pip install -r requirements.txt`
 3. `streamlit run app.py`
 
